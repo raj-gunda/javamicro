@@ -1,13 +1,13 @@
-package com.example.kafka-consumer-service.controller;
+package com.example.orderservice.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class Kafka-consumer-serviceController {
+public class OrderServiceController {
 
     @GetMapping("/")
     public String hello() {
-        return "Hello from kafka-consumer-service!";
+        return "Hello from order-service!";
     }
 }

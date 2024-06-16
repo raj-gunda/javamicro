@@ -1,10 +1,10 @@
-package com.example.user-service.controller;
+package com.example.userservice.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class User-serviceController {
+public class UserServiceController {
 
     @GetMapping("/")
     public String hello() {

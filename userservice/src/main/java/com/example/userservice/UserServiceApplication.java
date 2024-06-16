@@ -1,12 +1,12 @@
-package com.example.kafka-consumer-service;
+package com.example.userservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Kafka-consumer-serviceApplication {
+public class UserServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Kafka-consumer-serviceApplication.class, args);
+        SpringApplication.run(UserServiceApplication.class, args);
     }
 }
