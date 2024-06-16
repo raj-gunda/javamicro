@@ -1,0 +1,22 @@
+keycloak:
+  realm: microservices-realm
+  resource: user-service-client
+  auth-server-url: http://localhost:8080/auth
+  ssl-required: external
+  credentials:
+    secret: YOUR_CLIENT_SECRET
+  use-resource-role-mappings: true
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
